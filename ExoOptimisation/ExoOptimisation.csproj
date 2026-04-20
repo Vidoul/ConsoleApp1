@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="10.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="images\ConvertImages_Par\" />
+    <Folder Include="images\ConvertImages_Seq\" />
+  </ItemGroup>
+
 </Project>
