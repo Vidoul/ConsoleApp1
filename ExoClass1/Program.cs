@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace ZooV1
 {
-    // ====== Domaine ======
     public enum Habitat { Savane, Aquarium, Jungle }
 
     public abstract class Animal
@@ -17,11 +16,9 @@ namespace ZooV1
             Age = age;
         }
 
-        // Contrat imposé aux enfants
         public abstract void SeDeplacer();
         public abstract void FaireDuBruit();
 
-        // Comportement commun (réutilisé)
         public virtual void Manger() => Console.WriteLine($"{Nom} mange sa ration.");
     }
 
@@ -69,7 +66,6 @@ namespace ZooV1
             Console.WriteLine($"\n=== Enclos {Nom} ({Habitat}) ===");
             foreach (var a in _animaux)
             {
-                // Polymorphisme : c’est la bonne implémentation qui s’exécute
                 a.FaireDuBruit();
                 a.SeDeplacer();
                 a.Manger();
@@ -89,7 +85,6 @@ namespace ZooV1
         }
     }
 
-    // ====== Demo ======
     class Program
     {
         static void Main()

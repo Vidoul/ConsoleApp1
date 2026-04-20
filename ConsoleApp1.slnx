@@ -1,4 +1,8 @@
 <Solution>
-  <Project Path="ConsoleApp1/ConsoleApp1.csproj" />
+  <Project Path="ConsoleApp1/ExoCalculette.csproj" />
+  <Project Path="ExoAlbums/ExoAlbums.csproj" Id="e4d1d188-b2cd-4732-bd25-36d569a2086f" />
   <Project Path="ExoClass1/ExoClass1.csproj" />
+  <Project Path="ExoOptimisation/ExoOptimisation.csproj" Id="32099a94-067c-46f4-9618-49346e7a26a6" />
+  <Project Path="ExoPerfs/ExoPerfs.csproj" Id="394be38e-b103-4b2f-9d8f-a6b646802900" />
+  <Project Path="FileConverter/FileConverter.csproj" Id="6d7b2687-cab9-4e30-ba67-126185b84266" />
 </Solution>
